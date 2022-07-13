@@ -1,5 +1,7 @@
 import requests
 
+#run python3 testing_url_sql_injection.py 
+
 url = "http://testphp.vulnweb.com/listproducts.php?cat="
 
 sql_payloads = []

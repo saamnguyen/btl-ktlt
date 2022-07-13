@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+#run python3 NmapScanner.py --ip_address 8.8.8.8 --ports 80
+
 import optparse
 import nmap
 

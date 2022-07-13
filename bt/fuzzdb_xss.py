@@ -2,6 +2,8 @@ import requests
 import sys
 from bs4 import BeautifulSoup, SoupStrainer
 
+#run python3 fuzzdb_xss.py
+
 xsspayloads = []
 
 with open('XSS-attack-vectors.txt', 'r') as filehandle:

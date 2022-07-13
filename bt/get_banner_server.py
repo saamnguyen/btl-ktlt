@@ -2,6 +2,8 @@ import socket
 import argparse
 import re
 
+#python3 get_banner_server.py --target www.python.org --port 80 
+
 parser = argparse.ArgumentParser(description='Get banner server')
 
 # Main arguments
